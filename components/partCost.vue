@@ -424,7 +424,7 @@ p {
 
 h5 {
   margin: 0;
-  background-color: #51b3c4;
+  background-color: #cf9e4a;
 }
 
 .partList {
