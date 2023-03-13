@@ -3,9 +3,9 @@
     <div class="m-4">
       <img
         alt="Company Logo"
-        width="451"
-        height="100"
-        src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.logodesign.net%2Flogos%2Fwater&psig=AOvVaw1Fo9MWLDGgOOdl6Y1U8YX7&ust=1676718879701000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLjPltu2nP0CFQAAAAAdAAAAABAE"
+        width="320"
+        height="150"
+        src="../assets/buildinglogo.png"
       />
     </div>
     <form @submit.prevent="$store.dispatch('provisionAuditDevice')">
@@ -130,15 +130,6 @@ h6 {
   font-size: 14px;
 }
 
-.progressDisplayBar {
-  background: #00935b;
-  height: 17px;
-  width: 5%;
-  position: absolute;
-  left: 0px;
-  top: -16px;
-}
-
 button {
   color: white;
   background: #363636;
@@ -147,15 +138,15 @@ button {
   border: none;
 }
 button:hover {
-  background: #4f4f4f;
+  background: #749399;
 }
 
 #submitAudit {
-  background: #00935b;
+  background: #e8a736;
   padding: 2%;
   border-radius: 10px;
 }
 #submitAudit:hover {
-  background: #115b36;
+  background: #cf9e4a;
 }
 </style>
