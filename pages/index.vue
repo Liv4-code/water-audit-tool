@@ -1,7 +1,7 @@
 <template>
   <div class="d-flex flex-column align-items-center">
     <div>
-      <h1>Building Water Audit Tool</h1>
+      <h1>Building Water Audit</h1>
     </div>
     <form @submit.prevent="$store.dispatch('provisionAuditDevice')">
       <accountDetails v-if="activeDisplay === 1" @getNext="validateForm1" />
