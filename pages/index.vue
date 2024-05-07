@@ -1,6 +1,6 @@
 <template>
   <div class="d-flex flex-column align-items-center">
-    <div class="m-4">
+    <div>
       <h1>Building Water Audit Tool</h1>
     </div>
     <form @submit.prevent="$store.dispatch('provisionAuditDevice')">
@@ -96,7 +96,7 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;600&display=swap");
 
 * {
   font-family: "Fira Sans", sans-serif;
@@ -106,9 +106,17 @@ form {
   position: relative;
 }
 
+h1 {
+  margin: 3.7rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
 h2 {
   font-weight: 500;
   text-align: center;
+  font-size: 1.6rem;
 }
 
 h4 {
@@ -123,6 +131,7 @@ h5 {
 h6 {
   text-align: center;
   font-size: 14px;
+  font-weight: bold;
 }
 
 button {

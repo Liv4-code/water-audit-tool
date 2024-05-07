@@ -173,7 +173,7 @@ export default {
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: #e8a736;
+  background-color: #e89a00d9;
 }
 
 img {
