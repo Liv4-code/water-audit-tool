@@ -1,12 +1,7 @@
 <template>
   <div class="d-flex flex-column align-items-center">
     <div class="m-4">
-      <img
-        alt="Company Logo"
-        width="320"
-        height="150"
-        src="../assets/buildinglogo.png"
-      />
+      <h1>Building Water Audit Tool</h1>
     </div>
     <form @submit.prevent="$store.dispatch('provisionAuditDevice')">
       <accountDetails v-if="activeDisplay === 1" @getNext="validateForm1" />
